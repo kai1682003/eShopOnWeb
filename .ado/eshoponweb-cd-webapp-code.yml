@@ -9,12 +9,12 @@ resources:
 
 
 variables:
-  resource-group: 'AZ400-EWebShop-NAME'
-  location: 'centralus'
+  resource-group: 'app-website-rg'
+  location: 'eastus'
   templateFile: 'infra/webapp.bicep'
-  subscriptionid: 'YOUR-SUBSCRIPTION-ID'
+  subscriptionid: '6d61df35-477d-4528-9394-6918aa2d5141'
   azureserviceconnection: 'azure subs'
-  webappname: 'az400-webapp-NAME'
+  webappname: 'kmuhwapp/staging'
   # webappname: 'webapp-windows-eshop'
   
 
