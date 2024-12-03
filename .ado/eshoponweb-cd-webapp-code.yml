@@ -15,7 +15,7 @@ variables:
   subscriptionid: '6d61df35-477d-4528-9394-6918aa2d5141'
   azureserviceconnection: 'azure subs'
   webappname: 'kmuhwapp/staging'
-  # webappname: 'webapp-windows-eshop'
+
   
 
 stages:
